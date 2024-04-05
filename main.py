@@ -152,13 +152,7 @@ class Bot(BaseBot):
         
  
         asyncio.create_task(self.dance_floor())
-        while True:
-            await asyncio.sleep(13)
-            
-            await self.highrise.send_emote(
-         random.choice(['emoji-flex', 'dance-tiktok10', 'emote-snake', 'emote-roll', 'emote-superpunch', 'emote-kicking', 'idle-floorsleeping2', 'emote-hero', 'idle_layingdown2', 'idle_layingdown', 'dance-sexy', 'emoji-hadoken', 'emote-disappear', 'emote-graceful', 'sit-idle-cute', 'idle-loop-aerobics', 'dance-orangejustice', 'emote-rest', 'dance-martial-artist', 'dance-breakdance', 'emote-astronaut', 'emote-zombierun', 'idle_singing', 'emote- frollicking', 'emote-float', 'emote-kicking', 'emote-ninjarun', 'emote-secrethandshake', 'emote-apart', 'emote-headball', 'dance-floss', 'emote-jetpack', 'emote-ghost-idle', 'dance-spiritual', 'dance-robotic', 'dance-metal', 'idle-loop-tapdance', 'idle-dance-swinging', 'emote-mindblown', 'emote-gangnam', 'emote-harlemshake', 'emote-robot', 'emote-nightfever', 'dance-anime', 'idle-guitar', 'emote-headblowup', 'dance-creepypuppet', 'emote-creepycute', 'emote-sleigh', 'emote-hyped', 'dance-jinglebell', 'idle-nervous', 'idle-toilet', 'emote-timejump', 'sit-relaxed', 'dance-kawai', 'idle-wild', 'emote-iceskating', 'sit-open', 'dance-touch']))
-            
-            await asyncio.sleep(40)
+        
             
 
 
